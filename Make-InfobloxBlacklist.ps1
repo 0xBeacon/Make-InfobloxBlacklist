@@ -80,7 +80,7 @@ Import-CSV -Delimiter "," -header $header $TARGETDIR\malwaretemp_$date.csv |
 Export-CSV -NoTypeInformation $TARGETDIR\malware_domains_$date.csv
 
 
-######Section 4: HOUSEKEEPING#######
+#HOUSEKEEPING
 rm $TARGETDIR\malwaretemp_$date.csv
 rm $TARGETDIR\malwaredomains_$date.txt
 
