@@ -1,5 +1,6 @@
 # Make-InfobloxBlacklist
 DNS malware blacklist for Infoblox
+
 .SYNOPSIS
 	This script downloads a list of malware domains and ultimately formats them
 	into a csv format specifically for Infoblox for importing into a DNS blacklist.
